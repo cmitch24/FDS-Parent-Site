@@ -14,8 +14,19 @@ npm run dev
 ```
 
 ## Deploy
-- Vercel recommended. Add domain `flyerdesignsolutions.com`.
+
+## Deployment
+
+Recommended: Vercel
+
+- Push to GitHub (done). Connect the repo in vercel.com/new.
+- Set these Environment Variables in Vercel Project Settings → Environment Variables:
+   - SUPABASE_URL
+   - SUPABASE_SERVICE_ROLE_KEY
+- Trigger a deploy. Next.js 14 App Router builds automatically.
+
+CI
+
+- GitHub Actions workflow `.github/workflows/ci.yml` builds and lints on pushes/PRs to `main`.
 
 ## Notes
-- Images are unoptimized to avoid remote loader config.
-- Forms POST to simple API routes that return `{ ok: true }` and log the payload on the server.
