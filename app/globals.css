@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  @apply bg-fds-bg text-fds-text min-h-full font-sans;
+}
+
+/* Glass utility */
+.glass {
+  @apply bg-fds-deep/60 backdrop-blur border border-white/10 rounded-2xl shadow-glow;
+}
+
+/* Prose tweaks for dark */
+.prose-dark {
+  --tw-prose-body: theme(colors.fds-text);
+  --tw-prose-headings: theme(colors.fds-text);
+  --tw-prose-links: theme(colors.fds-accent);
+  --tw-prose-bullets: theme(colors.fds-accent);
+}
+
+:focus-visible {
+  outline: 2px solid #00e5ff; /* fds-cyan */
+  outline-offset: 2px;
+}
