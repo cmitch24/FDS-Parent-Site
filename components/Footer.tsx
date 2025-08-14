@@ -6,13 +6,13 @@ export default function Footer() {
     <footer className="mt-20 border-t border-white/10">
       <div className="mx-auto max-w-6xl px-4 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         <div>
-          <h3 className="font-semibold mb-3">Flyer Design Solutions</h3>
+          <h3 className="font-semibold mb-3">Flyer Design Solutions LLC</h3>
           <p className="text-sm text-white/70">Engineering-grade software and design services for aviation and manufacturing teams.</p>
         </div>
         <div>
           <h4 className="font-semibold mb-3">Products</h4>
           <ul className="space-y-2 text-sm">
-            <li><Link className="hover:text-fds-accent hover:underline underline-offset-4 decoration-fds-accent/60" href="/products/aviatecalc">AviateCalc</Link></li>
+            <li><Link className="hover:text-fds-accent hover:underline underline-offset-4 decoration-fds-accent/60" href="/products/aviatecalc">AviateCalc (Beta)</Link></li>
             <li><Link className="hover:text-fds-accent hover:underline underline-offset-4 decoration-fds-accent/60" href="/products/quotex">QuoteX</Link></li>
           </ul>
         </div>

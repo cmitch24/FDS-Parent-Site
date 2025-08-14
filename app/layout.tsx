@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Flyer Design Solutions',
+  title: 'Flyer Design Solutions LLC',
   description: 'Engineering-grade software and design services.',
 }
 

@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <section className="py-12">
-      <h1 className="text-3xl sm:text-4xl font-bold">AviateCalc</h1>
+  <h1 className="text-3xl sm:text-4xl font-bold">AviateCalc (Beta)</h1>
       <p className="mt-4 text-white/80 max-w-2xl">
         Engineering-grade calculators for pilots and maintainers. Weight & balance range finder is available now.
       </p>

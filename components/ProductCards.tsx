@@ -21,7 +21,7 @@ export default function ProductCards() {
     <section className="mx-auto max-w-6xl px-4 mt-16">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <Card
-          title="AviateCalc"
+          title="AviateCalc (Beta)"
           desc="Weight & balance range finder and aviation calculators."
           href="/products/aviatecalc"
         />

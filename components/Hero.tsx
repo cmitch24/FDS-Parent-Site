@@ -17,7 +17,7 @@ export default function Hero() {
             className="inline-flex items-center justify-center rounded-xl bg-fds-cyan/90 text-fds-bg font-semibold px-5 py-3 shadow-glow hover:bg-fds-accent transition-colors"
             role="button"
           >
-            Visit AviateCalc
+            Visit AviateCalc (Beta)
           </Link>
           <Link
             href="/consulting"
