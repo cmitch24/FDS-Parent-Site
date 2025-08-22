@@ -1,16 +1,16 @@
 import Link from 'next/link'
-import BackgroundGlobeLeft from './BackgroundGlobeLeft'
+// import BackgroundGlobeLeft from './BackgroundGlobeLeft'
 
 export default function Hero() {
   return (
     <section className="relative overflow-hidden">
-  <div className="absolute inset-0 bg-hero bg-cover bg-center opacity-30 -z-20" aria-hidden="true" />
+  <div className="absolute inset-0 bg-hero bg-cover bg-center opacity-30" aria-hidden="true" />
       {/* Decorative globe on left half */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       {/* BackgroundGlobeLeft renders via CSS background to avoid layout shift */}
       {/* Component is pointer-events-none and -z-10 so content stays interactive */}
-      <BackgroundGlobeLeft />
-  <div className="relative z-10 mx-auto max-w-6xl px-4 py-28 sm:py-36">
+  {/** <BackgroundGlobeLeft /> */}
+  <div className="relative mx-auto max-w-6xl px-4 py-28 sm:py-36">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight">
           Engineering‑grade software & design services
         </h1>
