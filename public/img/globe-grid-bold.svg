@@ -3,7 +3,7 @@
   <defs>
     <!-- Cyan/blue brand radial gradient (center bright cyan to deep blue edge) -->
     <radialGradient id="g" cx="50%" cy="50%" r="55%">
-      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="0%" stop-color="#38bdf8"/>
       <stop offset="55%" stop-color="#0ea5e9"/>
       <stop offset="100%" stop-color="#1e40af"/>
     </radialGradient>
@@ -26,7 +26,7 @@
     <circle cx="500" cy="500" r="460" fill="url(#g)"/>
 
     <!-- Latitude lines (ellipses) -->
-    <g fill="none" stroke="#000" stroke-opacity="0.7" stroke-width="6">
+  <g fill="none" stroke="#000" stroke-opacity="0.85" stroke-width="7">
       <ellipse cx="500" cy="500" rx="430" ry="360"/>
       <ellipse cx="500" cy="500" rx="430" ry="270"/>
       <ellipse cx="500" cy="500" rx="430" ry="180"/>
@@ -34,7 +34,7 @@
     </g>
 
     <!-- Longitude lines (vertical ellipses; rotated groups) -->
-    <g fill="none" stroke="#000" stroke-opacity="0.7" stroke-width="6">
+  <g fill="none" stroke="#000" stroke-opacity="0.85" stroke-width="7">
       <ellipse cx="500" cy="500" rx="200" ry="440"/>
       <g transform="rotate(30 500 500)">
         <ellipse cx="500" cy="500" rx="200" ry="440"/>

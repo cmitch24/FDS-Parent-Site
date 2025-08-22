@@ -6,7 +6,7 @@ export default function BackgroundGlobeLeft() {
       className="
         pointer-events-none absolute left-0 top-0 h-screen w-1/2 -z-10
         overflow-hidden
-        sm:opacity-80 opacity-60
+  sm:opacity-90 opacity-60
       "
     >
       {/* Rotating layer */}
@@ -19,8 +19,8 @@ export default function BackgroundGlobeLeft() {
         style={{
           backgroundImage: "url('/img/globe-grid-bold.svg')",
           backgroundRepeat: 'no-repeat',
-          backgroundSize: '180% 180%',     // zoomed in
-          backgroundPosition: '60% 40%',   // adjust focal point
+          backgroundSize: '200% 200%',     // zoomed in more for presence
+          backgroundPosition: '40% 50%',   // shift focal point toward left-center
           filter: 'drop-shadow(0 0 16px rgba(0,0,0,0.25))',
         }}
       />
