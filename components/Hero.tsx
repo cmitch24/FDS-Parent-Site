@@ -4,7 +4,7 @@ import BackgroundGlobeLeft from './BackgroundGlobeLeft'
 export default function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <div className="absolute inset-0 bg-hero bg-cover bg-center opacity-30" aria-hidden="true" />
+  <div className="absolute inset-0 bg-hero bg-cover bg-center opacity-30 -z-20" aria-hidden="true" />
       {/* Decorative globe on left half */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       {/* BackgroundGlobeLeft renders via CSS background to avoid layout shift */}
