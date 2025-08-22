@@ -4,7 +4,7 @@ export default function BackgroundGlobeLeft() {
     <div
       aria-hidden
       className="
-        pointer-events-none absolute left-0 top-0 h-screen w-1/2 -z-10
+        pointer-events-none fixed left-0 top-0 h-screen w-[50vw] z-0
         overflow-hidden
   sm:opacity-90 opacity-60
       "
@@ -22,6 +22,8 @@ export default function BackgroundGlobeLeft() {
           backgroundSize: '200% 200%',     // zoomed in more for presence
           backgroundPosition: '40% 50%',   // shift focal point toward left-center
           filter: 'drop-shadow(0 0 16px rgba(0,0,0,0.25))',
+          outline: '1px dashed rgba(126,252,255,0.5)', // DEBUG: see bounds
+          boxShadow: 'inset 0 0 80px rgba(0,0,0,0.35)', // extra vignette
         }}
       />
     </div>

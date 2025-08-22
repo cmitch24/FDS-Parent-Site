@@ -10,7 +10,7 @@ export default function Hero() {
       {/* BackgroundGlobeLeft renders via CSS background to avoid layout shift */}
       {/* Component is pointer-events-none and -z-10 so content stays interactive */}
       <BackgroundGlobeLeft />
-      <div className="relative mx-auto max-w-6xl px-4 py-28 sm:py-36">
+  <div className="relative z-10 mx-auto max-w-6xl px-4 py-28 sm:py-36">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight">
           Engineering‑grade software & design services
         </h1>
