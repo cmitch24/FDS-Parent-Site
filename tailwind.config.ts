@@ -9,15 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'fds-bg': '#050914',
-        'fds-deep': '#0a1530',
-        'fds-glow': '#3ddcff',
-        'fds-cyan': '#00e5ff',
-        'fds-accent': '#7efcff',
-        'fds-text': '#e6f7ff',
+        'fds-bg': '#0a0500',
+        'fds-deep': '#1a0800',
+        'fds-glow': '#f97316',
+        'fds-cyan': '#f97316',
+        'fds-accent': '#fb923c',
+        'fds-text': '#fff7ed',
       },
       boxShadow: {
-        glow: '0 0 25px rgba(61,220,255,0.35)',
+        glow: '0 0 25px rgba(249,115,22,0.35)',
       },
       backgroundImage: {
         hero: "url('/hero.jpg')",
