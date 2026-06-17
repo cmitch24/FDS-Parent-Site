@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import BackgroundGlobe from '@/components/BackgroundGlobeLeft'
 
 export const metadata: Metadata = {
   title: 'Flyer Design Solutions LLC',
@@ -11,9 +12,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
+      <body className="relative">
+        <BackgroundGlobe />
         <Header />
-        <main className="mx-auto max-w-6xl px-4">
+        <main className="relative z-10 mx-auto max-w-6xl px-4">
           {children}
         </main>
         <Footer />

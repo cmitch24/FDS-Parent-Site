@@ -7,22 +7,20 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         <div>
           <h3 className="font-semibold mb-3">Flyer Design Solutions LLC</h3>
-          <p className="text-sm text-white/70">Engineering-grade software and design services for aviation and manufacturing teams.</p>
+          <p className="text-sm text-white/70">Helping VFR pilots build safe and legal routes with AviateVFR — the automatic route finder built for real-world flying.</p>
         </div>
         <div>
           <h4 className="font-semibold mb-3">Products</h4>
           <ul className="space-y-2 text-sm">
-            <li><Link className="hover:text-fds-accent hover:underline underline-offset-4 decoration-fds-accent/60" href="/products/aviatecalc">AviateCalc (Beta)</Link></li>
-            <li><Link className="hover:text-fds-accent hover:underline underline-offset-4 decoration-fds-accent/60" href="/products/quotex">QuoteX</Link></li>
+            <li><Link className="hover:text-fds-accent hover:underline underline-offset-4 decoration-fds-accent/60" href="/products/aviatecalc">AviateVFR</Link></li>
           </ul>
         </div>
         <div>
           <h4 className="font-semibold mb-3">Company</h4>
           <ul className="space-y-2 text-sm">
             <li><Link className="hover:text-fds-accent hover:underline underline-offset-4 decoration-fds-accent/60" href="/about">About</Link></li>
-            <li><Link className="hover:text-fds-accent hover:underline underline-offset-4 decoration-fds-accent/60" href="/consulting">Consulting</Link></li>
             <li><Link className="hover:text-fds-accent hover:underline underline-offset-4 decoration-fds-accent/60" href="/contact">Contact</Link></li>
-            <li className="pt-2 text-white/70">Support: <a className="hover:text-fds-accent hover:underline underline-offset-4 decoration-fds-accent/60" href="mailto:flyerdesignsolutions@gmail.com">flyerdesignsolutions@gmail.com</a></li>
+            <li className="pt-2 text-white/70">Support: <a className="hover:text-fds-accent hover:underline underline-offset-4 decoration-fds-accent/60" href="mailto:admin@flyerdesignsolutions.com">admin@flyerdesignsolutions.com</a></li>
           </ul>
         </div>
         <div>

@@ -6,9 +6,9 @@ export default function Page() {
         <h2>What we collect</h2>
         <p>We collect form contact details that you submit. Billing data is processed securely by Stripe.</p>
         <h2>How we use data</h2>
-        <p>We use your information to respond to inquiries, improve products, and provide support.</p>
+        <p>We use your information to respond to inquiries, improve products, and provide support. We do not sell your data or share it with any third party that you have not explicitly authorized.</p>
         <h2>Contact</h2>
-  <p>flyerdesignsolutions@gmail.com</p>
+  <p>admin@flyerdesignsolutions.com</p>
       </div>
     </section>
   )

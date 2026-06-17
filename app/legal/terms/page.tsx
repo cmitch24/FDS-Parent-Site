@@ -8,7 +8,7 @@ export default function Page() {
         <h2>Refunds</h2>
         <p>Refunds are discretionary; contact support for assistance.</p>
         <h2>Contact</h2>
-  <p>flyerdesignsolutions@gmail.com</p>
+  <p>admin@flyerdesignsolutions.com</p>
       </div>
     </section>
   )
