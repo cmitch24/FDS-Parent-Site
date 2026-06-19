@@ -9,7 +9,7 @@ export default function Page() {
       {/* Logo + Headline together */}
       <div className="flex flex-col items-center gap-3">
         <Image
-          src="/this ones gotta work.png"
+          src="/This ones gotta work.png"
           alt="AviateVFR"
           width={320}
           height={320}
