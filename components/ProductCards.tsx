@@ -15,7 +15,7 @@ export default function ProductCards() {
         <div className="flex flex-col gap-4">
           <div>
             <h3 className="text-2xl font-semibold">AviateVFR</h3>
-            <p className="text-sm text-white/75 mt-2">The automatic VFR route finder that accounts for weather, terrain, and airspace to create a safe and legal route from start to destination in seconds.</p>
+            <p className="text-sm text-white/75 mt-2">The automatic VFR route finder that accounts for weather, terrain, and airspace to create a safe and legal route from start to destination in seconds. AviateVFR also performs aircraft performance calculations and gives pilots the opportunity to fly their route in 3D — complete with visual checkpoints, 3D weather, and 3D airspace all visualized in an immersive environment.</p>
           </div>
           <Link
             href="/products/aviatecalc"

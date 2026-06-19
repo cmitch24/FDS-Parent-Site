@@ -4,6 +4,8 @@ export default function Page() {
   return (
     <div className="py-16 flex flex-col items-center text-center gap-10">
 
+      <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight">Introducing Our Flagship Product</h2>
+
       {/* Logo + Headline together */}
       <div className="flex flex-col items-center gap-3">
         <Image
@@ -19,9 +21,14 @@ export default function Page() {
 
       {/* Description */}
       <div className="max-w-2xl flex flex-col gap-4">
-        <p className="text-lg text-white/75 leading-relaxed">
+        <p className="text-lg text-white/90 font-medium leading-relaxed">
           The automatic VFR route finder that accounts for weather, terrain, and airspace
           to create a safe and legal route from start to destination in seconds.
+        </p>
+        <p className="text-lg text-white/75 leading-relaxed">
+          AviateVFR performs aircraft performance calculations and gives pilots the opportunity
+          to fly their route in 3D — complete with visual checkpoints, 3D weather, and
+          3D airspace all visualized in an immersive environment.
         </p>
       </div>
 
