@@ -6,7 +6,7 @@ export default function ProductCards() {
     <section className="mx-auto max-w-6xl px-4 mt-16">
       <div className="glass p-8 flex flex-col sm:flex-row items-center gap-8">
         <Image
-          src="/AviateVFR_transparent_background.png"
+          src="/Hopefully New Logo Transparent.png"
           alt="AviateVFR"
           width={180}
           height={180}
