@@ -13,7 +13,7 @@ export default function Hero() {
         </p>
         <div className="mt-8 flex flex-wrap gap-4">
           <Link
-            href="/products/aviatecalc"
+            href="/products/aviatevfr"
             className="inline-flex items-center justify-center rounded-xl bg-fds-cyan/90 text-fds-bg font-semibold px-5 py-3 shadow-glow hover:bg-fds-accent transition-colors"
             role="button"
           >

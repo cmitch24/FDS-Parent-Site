@@ -4,7 +4,7 @@ export default function sitemap() {
     { url: '/about', lastModified: new Date() },
     { url: '/consulting', lastModified: new Date() },
     { url: '/contact', lastModified: new Date() },
-    { url: '/products/aviatecalc', lastModified: new Date() },
+    { url: '/products/aviatevfr', lastModified: new Date() },
     { url: '/products/quotex', lastModified: new Date() },
     { url: '/legal/privacy', lastModified: new Date() },
     { url: '/legal/terms', lastModified: new Date() },

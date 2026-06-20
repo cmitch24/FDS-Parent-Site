@@ -18,7 +18,7 @@ export default function ProductCards() {
             <p className="text-sm text-white/75 mt-2">The automatic VFR route finder that accounts for weather, terrain, and airspace to create a safe and legal route from start to destination in seconds. AviateVFR also performs aircraft performance calculations and gives pilots the opportunity to fly their route in 3D — complete with visual checkpoints, 3D weather, and 3D airspace all visualized in an immersive environment.</p>
           </div>
           <Link
-            href="/products/aviatecalc"
+            href="/products/aviatevfr"
             className="self-start inline-flex items-center rounded-lg border border-white/20 px-4 py-2 hover:border-fds-accent/60 hover:text-fds-accent hover:underline underline-offset-4 decoration-fds-accent/60 transition-colors"
             role="button"
           >
